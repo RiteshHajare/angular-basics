@@ -1,0 +1,33 @@
+<p>joke works!</p>
+
+<button class="btn pink" (click)="fetchData()">fetchdata</button>
+<hr />
+<!-- <button class="btn pink" (click)="CallData()">Calldata</button> -->
+<!-- <input #box  /> -->
+<!-- <button class="btn green" (click)="CallData(box.value)">button</button> -->
+<!-- <button class="btn" (click)="CallData('plus')">++</button>
+<button class="btn" (click)="CallData('minus')">--</button> -->
+
+<!-- <p>this {{display}}</p> -->
+<!-- 
+<input type="text" disabled="{{disable}}" />     <br/><br/>
+<input type="text" [disabled]=disable />
+<button (click)="btnClk()" class="btn blue">click</button>
+<h1 *ngIf="disable else elseblock"> hello</h1>
+<ng-template #elseblock>
+    <h1>else</h1>
+</ng-template> -->
+
+<!-- <div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'" style="color:red;">red color</h1>
+    <h1 *ngSwitchCase="'green'" style="color:green;">green color</h1>
+    <h1 *ngSwitchDefault style="color:blue;">blue color</h1>
+
+</div> -->
+
+<!-- <h3 *ngFor="let i of arr" >{{i}} </h3> -->
+<ul *ngFor="let user of users">
+  <li>{{ user.name }}</li>
+  <li>{{ user.phone }}</li>
+</ul>
+<h1>{{ data }}</h1>
